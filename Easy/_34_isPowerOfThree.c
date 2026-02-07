@@ -1,0 +1,10 @@
+bool isPowerOfThree(int n) {
+    long int x=1;
+    while(x<=n){
+        if(x==n){
+            return true;
+        }
+        x*=3;
+    }
+    return false;
+}
